@@ -1,0 +1,12 @@
+* {font-family: 'Copse', serif;}
+.img-resp {width: 100%;}
+h1 {font-size: 2rem;}
+h2 {font-size: 1.5rem;}
+h3 {font-size: 1rem;}
+p {font-size: 0.95rem;}
+.card {margin-bottom: 1rem;}
+.card p {margin-bottom: 0.25rem;}
+a, .question {color: #328272;}
+a:hover {color: #328272; text-decoration: none;}
+a:visited {color: #328272;}
+@media (min-width: 576px) { .jumbotron {padding: 3rem 2rem;} }
