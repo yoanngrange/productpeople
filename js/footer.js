@@ -1,4 +1,4 @@
-class Feader extends HTMLElement {
+class Footer extends HTMLElement {
   constructor() {
     super();
   }
