@@ -1,6 +1,11 @@
-const footerTemplate = document.createElement('template');
-footerTemplate.innerHTML = `
-  <footer class="text-muted">
+class Feader extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
+        <footer class="text-muted">
       <div class="container">
 
         <br>
@@ -12,16 +17,7 @@ footerTemplate.innerHTML = `
     </footer>
 
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-`;
-
-class Footer extends HTMLElement {
-  constructor() {
-    super();
-  }
-
-  connectedCallback() {
-    const shadowRoot = this.attachShadow({ mode: 'open' });
-    shadowRoot.appendChild(footerTemplate.content);
+    `;
   }
 }
 
