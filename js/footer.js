@@ -12,7 +12,9 @@ class Footer extends HTMLElement {
         <hr>
         <br>
 
-        <p><small>ProductPeople.io est un projet porté par <a href="https://www.linkedin.com/in/yoanngrange/" target="_blank">Yoann Grange</a>. Les points de vue exprimés sur ce site ne sont que des points de vue. Ces derniers datent de décembre 2016.</small></p>
+        <p><small>ProductPeople.io est un projet porté par <a href="https://www.linkedin.com/in/yoanngrange/" target="_blank">Yoann Grange</a>.
+        <br>Les points de vue exprimés sur ce site ne sont que des points de vue.
+        <br>Ces derniers datent de décembre 2016.</small></p>
       </div>
     </footer>
 
