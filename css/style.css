@@ -1,9 +1,10 @@
-* {font-family:'Oswald', sans-serif;}
+* {font-family:'Oswald', sans-serif; font-weight: 300;}
 .img-resp {width: 100%;}
 h1 {font-size: 2rem;}
 h2 {font-size: 1.5rem;}
 h3 {font-size: 1rem;}
-p {font-size: 0.95rem;}
+h1, h2, h3, h4, h5, h6 {font-weight: 500;}
+p {font-size: 1rem;}
 .card {margin-bottom: 1rem;}
 .card p {margin-bottom: 0.25rem;}
 a, .question {color: #328272;}
