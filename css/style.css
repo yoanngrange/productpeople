@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: 500;}
 p {font-size: 1rem;}
 .card {margin-bottom: 1rem;}
 .card p {margin-bottom: 0.25rem;}
+.album .card img {border-bottom: 1px solid #CCC;}
 a, .question {color: #328272;}
 a:hover {color: #328272; text-decoration: none;}
 a:visited {color: #328272;}
