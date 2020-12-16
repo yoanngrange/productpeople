@@ -13,7 +13,6 @@ class Head extends HTMLElement {
     <link href="https://fonts.googleapis.com/css?family=Copse" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script src="js/footer.js" type="text/javascript" defer></script>
     `;
   }
 }
